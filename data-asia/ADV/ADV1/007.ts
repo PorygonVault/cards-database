@@ -4,65 +4,57 @@ import Set from "../ADV1";
 const card: Card = {
     set: Set,
     name: {
-        ja: "",
+        ja: "マユルド",
     },
 
-    illustrator: "",
-    rarity: "",
-    category: "",
-    dexId: [],
-    hp: ,
-    types: [""],
-    stage: "",
+    illustrator: "Midori Harada",
+    rarity: "Uncommon",
+    category: "Pokemon",
+    dexId: [268],
+    hp: 70,
+    types: ["Grass"],
+    stage: "Stage1",
   
     evolveFrom: {
-        ja: "",
+        ja: "ケムッソ",
     },
 
     abilities: [
       {
-        type: "",
+        type: "ポケボディー",
         name: {
-          ja: "",
+          ja: "まゆのから",
         },
         effect: {
-          ja: "",
+          ja: "このポケモンが、相手のワザによるダメージを受けるとき、このポケモンの持ち主はコインを1回投げオモテなら、そのダメージは「-30」 される。",
         },
       },
     ],
   
     attacks: [
       {
-            cost: [""],
+            cost: ["Grass"],
             name: {
-                ja: "",
-            },
-            damage: ,
-      },
-      {
-            cost: [""],
-            name: {
-                ja: "",
+                ja: "どくのいと",
             },
             effect: {
-                ja: "",
+                ja: "相手をどくにする。",
             },
-            damage: ,
       },
   ],
 
   variants: [
     {
-          type: "",
+          type: "Normal",
           thirdparty: {
-              cardmarket: ,
-              tcgplayer: ,
+              cardmarket: 784491,
+              tcgplayer: 613086,
           },
       },
   ],
   
   retreat: ,
-  weaknesses: [{}],
+  weaknesses: [{ type: "Fire", Value: "x2"}],
   resistances: [],
 };
 
