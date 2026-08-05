@@ -4,65 +4,64 @@ import Set from "../ADV1";
 const card: Card = {
     set: Set,
     name: {
-        ja: "",
+        ja: "ドクケイル",
     },
 
-    illustrator: "",
-    rarity: "",
-    category: "",
-    dexId: [],
-    hp: ,
-    types: [""],
-    stage: "",
+    illustrator: "Midori Harada",
+    rarity: "Rare",
+    category: "Pokemon",
+    dexId: [269],
+    hp: 90,
+    types: ["Grass"],
+    stage: "Stage2",
   
     evolveFrom: {
-        ja: "",
+        ja: "マユルド",
     },
 
     abilities: [
       {
-        type: "",
+        type: "ポケボディー",
         name: {
-          ja: "",
+          ja: "まもりのりんぶん",
         },
         effect: {
-          ja: "",
+          ja: "このポケモンは、相手のワザによる効果を受けない。",
         },
       },
     ],
   
     attacks: [
       {
-            cost: [""],
+            cost: ["Grass", "Colorless"],
             name: {
-                ja: "",
-            },
-            damage: ,
-      },
-      {
-            cost: [""],
-            name: {
-                ja: "",
+                ja: "どくどく",
             },
             effect: {
-                ja: "",
+				ja: "相手をどくにする。このワザでどくになったポケモンは、ポケモンチェックのときにのせるどくのダメージカウンターの数が 2個になる。",
+			},
+      },
+      {
+            cost: ["Grass", "Colorless", "Colorless"],
+            name: {
+                ja: "かぜおこし",
             },
-            damage: ,
+            damage: 50,
       },
   ],
 
   variants: [
     {
-          type: "",
-          thirdparty: {
-              cardmarket: ,
-              tcgplayer: ,
+          type: "Normal",
+          thirdParty: {
+              cardmarket: 784492,
+              tcgplayer: 613058,
           },
       },
   ],
   
   retreat: ,
-  weaknesses: [{}],
+  weaknesses: [{ type:"Psychic", value:"x2"}],
   resistances: [],
 };
 
