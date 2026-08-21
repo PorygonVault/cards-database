@@ -4,65 +4,48 @@ import Set from "../ADV1";
 const card: Card = {
     set: Set,
     name: {
-        ja: "",
+        ja: "ドンメル",
     },
 
-    illustrator: "",
-    rarity: "",
-    category: "",
-    dexId: [],
-    hp: ,
-    types: [""],
-    stage: "",
-  
-    evolveFrom: {
-        ja: "",
-    },
-
-    abilities: [
-      {
-        type: "",
-        name: {
-          ja: "",
-        },
-        effect: {
-          ja: "",
-        },
-      },
-    ],
+    illustrator: "Ken Sugimori",
+    rarity: "Common",
+    category: "Pokemon",
+    dexId: [322],
+    hp: 30,
+    types: ["Fire"],
+    stage: "Basic",
   
     attacks: [
       {
-            cost: [""],
+            cost: ["Colorless"],
             name: {
-                ja: "",
+                ja: "ずつき",
             },
-            damage: ,
+            damage: 10,
       },
       {
-            cost: [""],
+            cost: ["Fire", "Colorless"],
             name: {
-                ja: "",
+                ja: "まるやき",
             },
             effect: {
-                ja: "",
+                ja: "コインを1回投げオモテなら、相手のバトルポケモン全員を、 それぞれやけどにする。",
             },
-            damage: ,
       },
   ],
 
   variants: [
     {
-          type: "",
+          type: "normal",
           thirdparty: {
-              cardmarket: ,
-              tcgplayer: ,
+              cardmarket: 784496,
+              tcgplayer: 613044,
           },
       },
   ],
   
   retreat: ,
-  weaknesses: [{}],
+  weaknesses: [{ type: "Water", value: "x2" }],
   resistances: [],
 };
 
