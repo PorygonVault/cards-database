@@ -4,65 +4,58 @@ import Set from "../ADV1";
 const card: Card = {
     set: Set,
     name: {
-        ja: "",
+        ja: "バシャーモ",
     },
 
-    illustrator: "",
-    rarity: "",
-    category: "",
-    dexId: [],
-    hp: ,
-    types: [""],
-    stage: "",
+    illustrator: "Kouki Saitou",
+    rarity: "Rare",
+    category: "Pokemon",
+    dexId: [257],
+    hp: 100,
+    types: ["Fire"],
+    stage: "Stage2",
   
     evolveFrom: {
-        ja: "",
+        ja: "ワカシャモ",
     },
 
     abilities: [
       {
-        type: "",
+        type: "ポケパワー",
         name: {
-          ja: "",
+          ja: "たきつける",
         },
         effect: {
-          ja: "",
+          ja: "このパワーは、自分の番に1回使うことができる。自分のトラッシュからもエネルギーを1枚選び出し、自分のベンチポケモンにつける。 このポケモンが特殊状態なら、このパワーを使うことはできない。",
         },
       },
     ],
   
     attacks: [
       {
-            cost: [""],
+            cost: ["Fire", "Colorless", "Colorless"],
             name: {
-                ja: "",
-            },
-            damage: ,
-      },
-      {
-            cost: [""],
-            name: {
-                ja: "",
+                ja: "ファイヤーストリーム",
             },
             effect: {
-                ja: "",
+                ja: "自分のエネルギーを1個トラッシュし、相手のベンチポケモン全員にも、それぞれ10ダメージ。",
             },
-            damage: ,
+            damage: 50,
       },
   ],
 
   variants: [
     {
-          type: "",
+          type: "normal",
           thirdparty: {
-              cardmarket: ,
-              tcgplayer: ,
+              cardmarket: 784495,
+              tcgplayer: 613055,
           },
       },
   ],
   
-  retreat: ,
-  weaknesses: [{}],
+  retreat: 2,
+  weaknesses: [{ type: "Water", value: "x2" }],
   resistances: [],
 };
 
