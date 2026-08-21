@@ -4,65 +4,53 @@ import Set from "../ADV1";
 const card: Card = {
     set: Set,
     name: {
-        ja: "",
+        ja: "キノガッサ",
     },
 
-    illustrator: "",
-    rarity: "",
-    category: "",
-    dexId: [],
-    hp: ,
-    types: [""],
-    stage: "",
+    illustrator: "Ken Sugimori",
+    rarity: "Rare",
+    category: "POkemon",
+    dexId: [286],
+    hp: 70,
+    types: ["Grass"],
+    stage: "Stage1",
   
     evolveFrom: {
-        ja: "",
+        ja: "キノココ",
     },
-
-    abilities: [
-      {
-        type: "",
-        name: {
-          ja: "",
-        },
-        effect: {
-          ja: "",
-        },
-      },
-    ],
   
     attacks: [
       {
-            cost: [""],
+            cost: ["Colorless", "Colorless"],
             name: {
-                ja: "",
+                ja: "ずつき",
             },
-            damage: ,
+            damage: 20,
       },
       {
-            cost: [""],
+            cost: ["Grass", "Colorless", "Colorless"],
             name: {
-                ja: "",
+                ja: "バトルブラスト",
             },
             effect: {
-                ja: "",
+                ja: "自分の闘エネルギーの数×10ダメージを追加する。",
             },
-            damage: ,
+            damage: "40+",
       },
   ],
 
   variants: [
     {
-          type: "",
+          type: "normal",
           thirdparty: {
-              cardmarket: ,
-              tcgplayer: ,
+              cardmarket: 784494,
+              tcgplayer: 613067,
           },
       },
   ],
   
-  retreat: ,
-  weaknesses: [{}],
+  retreat: 1,
+  weaknesses: [{ type: "Fire", value: "x2" }],
   resistances: [],
 };
 
