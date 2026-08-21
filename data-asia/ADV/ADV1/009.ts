@@ -35,7 +35,7 @@ const card: Card = {
       },
   ],
   
-  retreat: ,
+  retreat: 1,
   weaknesses: [{type: "Fire", value "x2" }],
   resistances: [{ type: "Water", value: "-30" }],
 };
