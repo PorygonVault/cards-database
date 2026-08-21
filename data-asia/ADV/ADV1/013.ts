@@ -4,65 +4,55 @@ import Set from "../ADV1";
 const card: Card = {
     set: Set,
     name: {
-        ja: "",
+        ja: "バクーダ",
     },
 
-    illustrator: "",
-    rarity: "",
-    category: "",
-    dexId: [],
-    hp: ,
-    types: [""],
-    stage: "",
+    illustrator: "Ken Sugimori",
+    rarity: "Rare",
+    category: "Pokemon",
+    dexId: [323],
+    hp: 90,
+    types: ["Fire"],
+    stage: "Stage1",
   
     evolveFrom: {
-        ja: "",
+        ja: "ドンメル",
     },
-
-    abilities: [
-      {
-        type: "",
-        name: {
-          ja: "",
-        },
-        effect: {
-          ja: "",
-        },
-      },
-    ],
   
     attacks: [
       {
-            cost: [""],
+            cost: ["Fire", "Colorless"],
             name: {
-                ja: "",
+                ja: "ひのたま",
             },
-            damage: ,
+		  	effect: {
+				ja: "相手のベンチポケモン1匹にも、10ダメージ。",
+            damage: 20,
       },
       {
-            cost: [""],
+            cost: ["Fire", "Fire", "Colorless", "Colorless"],
             name: {
-                ja: "",
+                ja: "ほのおのうず",
             },
             effect: {
-                ja: "",
+                ja: "自分の基本エネルギーを2個トラッシュする。(トラッシュできないなら、このワザは失敗する。)",
             },
-            damage: ,
+            damage: 100,
       },
   ],
 
   variants: [
     {
-          type: "",
+          type: "normal",
           thirdparty: {
-              cardmarket: ,
-              tcgplayer: ,
+              cardmarket: 784497,
+              tcgplayer: 613056,
           },
       },
   ],
   
-  retreat: ,
-  weaknesses: [{}],
+  retreat: 3,
+  weaknesses: [{ type: "Fire", value: "x2"}],
   resistances: [],
 };
 
