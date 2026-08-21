@@ -4,66 +4,40 @@ import Set from "../ADV1";
 const card: Card = {
     set: Set,
     name: {
-        ja: "",
+        ja: "キノココ",
     },
 
-    illustrator: "",
-    rarity: "",
-    category: "",
-    dexId: [],
-    hp: ,
-    types: [""],
-    stage: "",
-  
-    evolveFrom: {
-        ja: "",
-    },
-
-    abilities: [
-      {
-        type: "",
-        name: {
-          ja: "",
-        },
-        effect: {
-          ja: "",
-        },
-      },
-    ],
+    illustrator: "Atsuko Nishida",
+    rarity: "Common",
+    category: "Pokemon",
+    dexId: [285],
+    hp: 40,
+    types: ["Grass"],
+    stage: "Basic",
   
     attacks: [
       {
-            cost: [""],
+            cost: ["Colorless"],
             name: {
-                ja: "",
+                ja: "相手をねむりにする。",
             },
-            damage: ,
-      },
-      {
-            cost: [""],
-            name: {
-                ja: "",
-            },
-            effect: {
-                ja: "",
-            },
-            damage: ,
+            damage: 10,
       },
   ],
 
   variants: [
     {
-          type: "",
+          type: "normal",
           thirdparty: {
-              cardmarket: ,
-              tcgplayer: ,
+              cardmarket: 784493,
+              tcgplayer: 613048,
           },
       },
   ],
   
   retreat: ,
-  weaknesses: [{}],
-  resistances: [],
+  weaknesses: [{type: "Fire", value "x2" }],
+  resistances: [{ type: "Water", value: "-30" }],
 };
 
 export default card;
