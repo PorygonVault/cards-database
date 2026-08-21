@@ -25,7 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lotad",
-		fr: "Nenupiot"
+		fr: "Nénupiot"
 	},
 
 	stage: "Stage1",
@@ -77,20 +77,25 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 86816,
-		cardmarket: 276436
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86816,
+				cardmarket: 276436
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
-		}
-	]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 86816,
+				cardmarket: 276436
+			},
+		},
+	],
+
 }
 
 export default card

@@ -4,7 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Minun",
-		fr: "Negapi",
+		fr: "Négapi",
 		de: "Minun"
 	},
 
@@ -70,20 +70,25 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 87484,
-		cardmarket: 276444
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87484,
+				cardmarket: 276444
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
-		}
-	]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 87484,
+				cardmarket: 276444
+			},
+		},
+	],
+
 }
 
 export default card

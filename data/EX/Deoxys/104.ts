@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Sharpedo ex",
 		fr: "Sharpedo ex",
-		de: "Tohaido ex"
+		de: "Tohaido-ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -87,16 +87,17 @@ const card: Card = {
 
 	retreat: 0,
 
-	thirdParty: {
-		tcgplayer: 89104,
-		cardmarket: 276507
-	},
 
 	variants: [
 		{
 			type: "holo",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 89104,
+				cardmarket: 276507
+			},
+		},
+	],
+
 }
 
 export default card
